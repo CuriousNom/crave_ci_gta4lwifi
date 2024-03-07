@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
- <remote name="ProjectBlaze" fetch="https://github.com/ProjectBlaze/" />
+ <remote name="CuriousNom" fetch="https://github.com/CuriousNom/" />
+ <remote name="Matrixx-Devices" fetch="https://github.com/Matrixx-Devices/" />
  <!-- Trees -->
  <project path="device/samsung/gta4lwifi" name="android_device_samsung_gta4lwifi" remote="CuriousNom" revision="14-blaze" />
- <project path="vendor/samsung/gta4lwifi" name="proprietary_vendor_xiaomi_violet" remote="Matrixx-Devices" revision="14.0" />
- <project path="kernel/samsung/gta4lwifi" name="android_kernel_samsung_gta4lwifi" remote="Matrixx-Devices" revision="14.0" />
+ <project path="vendor/samsung/gta4lwifi" name="Matrixx-Devices/android_vendor_samsung_gta4lwifi" remote="github" revision="14.0" />
+ <project path="kernel/samsung/sm6115" name="Matrixx-Devices/android_kernel_samsung_gta4l" remote="github" revision="14.0" />
 </manifest>
